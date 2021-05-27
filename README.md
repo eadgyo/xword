@@ -15,7 +15,8 @@ Windows only
  
 
 ## Usage
-xword + command (find, select, replace, copy, paste, cut...) + arguments
+$xDoc1 = [XWord]::new(docFilePath)
+$xDoc1.find("titre1")
 
 ## Commands
 
@@ -42,8 +43,7 @@ xword + command (find, select, replace, copy, paste, cut...) + arguments
 
 ### Navigate
 - cd
-- setCurDoc
-- 
+
 ### Select
 - select
 - extract
