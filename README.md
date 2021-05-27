@@ -8,15 +8,11 @@ Command line to search and edit xword document.
 - Select part of document
 - Use Regex and defined types
 
-## OS
-Windows only
-
 ## Syntax
  
 
 ## Usage
-$xDoc1 = [XWord]::new(docFilePath)
-$xDoc1.find("titre1")
+
 
 ## Commands
 
@@ -43,9 +39,23 @@ $xDoc1.find("titre1")
 
 ### Navigate
 - cd
+- nextLine
+- nextPage
+- nextWord
+- nextChar
+- previousLine
+- previousWord
+- previousChar
+- previousPage
+- gotoPage
+- gotoLine
+- gotoChar
+- gotoWord
 
 ### Select
-- select
+- selectPage
+- selectLine
+- selectText
 - extract
 
 ### 
