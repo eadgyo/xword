@@ -8,6 +8,9 @@ Command line to search and edit xword document.
 - Select part of document
 - Use Regex and defined types
 
+## Advanced functonionnalities
+- Create link between document
+
 ## Syntax
  
 
