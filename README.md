@@ -2,14 +2,17 @@
 Command line to search and edit xword document.
 
 ## Functionnalities:
+### Manipulation
 - Extract content from word doument
 - Navigate in document
 - Edit document
 - Select part of document
 - Use Regex and defined types
 
-## Advanced functonionnalities
+### Linking document
 - Create link between document
+- Navigate through link
+- Define link in text format
 
 ## Syntax
  
